@@ -1,5 +1,5 @@
 /*
-Theme Name: Mjolnir
+Theme Name: mjolnir
 Theme URI: https://github.com/Vitnere/Mjolnir_WP_Theme
 Author: Nemanja Kolar
 Author URI: http://nemanjakolar.bitballoon.com/
@@ -189,7 +189,7 @@ custom styles
     border-bottom: #ccc 1px solid;
     margin-bottom: 30px;
     color: #fff;
-    background: url('../img/showcase.jpg');
+    background: url('./img/showcase.jpg');
 }
 
     .showcase h1{

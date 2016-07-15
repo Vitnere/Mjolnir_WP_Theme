@@ -8,8 +8,7 @@
     <meta name="description" content="<?php bloginfo('description')?>">
     <title>
         <?php bloginfo('name');?> |
-        <?php is_front_page() ? bloginginfo('description'): wp_title(); ?>
-        <?php wp_title();?>
+        <?php is_front_page() ? bloginfo('description'): wp_title(); ?>
     </title>
     <!-- Bootstrap core CSS -->
     <link href="<?php bloginfo('template_url'); ?>/css/bootstrap.css" rel="stylesheet">
