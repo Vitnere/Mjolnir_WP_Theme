@@ -84,6 +84,14 @@ h6, .h6 {
     border-left: 5px solid transparent;
 }
 
+    .blog-nav a{
+        color: #fff;
+    }
+
+    .blog-nav a:hover{
+        color:#666;
+    }
+
 
 /*
  * Blog name and description
