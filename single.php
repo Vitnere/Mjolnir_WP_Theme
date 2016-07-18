@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Vitnere
- * Date: 18-Jul-16
- * Time: 2:42 PM
- */
-?>
 <?php get_header(); ?>
 <div class="container">
     <div class="row">

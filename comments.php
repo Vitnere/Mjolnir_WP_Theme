@@ -1,11 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: Vitnere
- * Date: 18-Jul-16
- * Time: 2:49 PM
- */
-?>
 <div class="comments">
     <h2>Comments</h2>
     <?php $args = array(
