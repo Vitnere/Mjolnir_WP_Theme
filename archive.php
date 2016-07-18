@@ -3,7 +3,7 @@
  * Created by PhpStorm.
  * User: Vitnere
  * Date: 18-Jul-16
- * Time: 2:42 PM
+ * Time: 3:38 PM
  */
 ?>
 
@@ -19,6 +19,7 @@
                 <?php while(have_posts()) : the_post(); ?>
                     <div class="blog-post">
                         <h2 class="blog-post-title">
+                            <a href="<?php the_permalink(); ?>">
                                 <?php the_title(); ?>
                             </a>
                         </h2>
@@ -34,10 +35,7 @@
                                 <?php the_post_thumbnail(); ?>
                             </div>
                         <?php endif; ?>
-                        <?php the_content(); ?>
-                        <hr>
-                        <?php comments_template();?>
-
+                        <?php the_excerpt(); ?>
                     </div><!-- /.blog-post -->
                 <?php endwhile; ?>
             <?php else :?>
@@ -53,4 +51,5 @@
 
         </div><!-- /.blog-main -->
 
-<?php get_footer(); ?>
+
+        <?php get_footer(); ?>
