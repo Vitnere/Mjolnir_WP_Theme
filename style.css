@@ -280,3 +280,14 @@ custom styles
         border: #ccc solid 1px;
         margin-bottom:15px;
     }
+
+    .post-gallery{
+        background:#333;
+        color:#fff;
+        padding:10px;
+        text-align: center;
+    }
+
+    .post-gallery h2{
+        color:#fff;
+    }
