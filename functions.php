@@ -51,5 +51,32 @@
     ));
     }
 
+    register_sidebar(array(
+        'name' => 'Box1',
+        'id'    => 'box1',
+        'before_widget' =>'<div class="box">',
+        'after_widget' => '</div>',
+        'before_title'=> '<h3>',
+        'after_title' => '</h3>'
+    ));
+
+    register_sidebar(array(
+        'name' => 'Box2',
+        'id'    => 'box2',
+        'before_widget' =>'<div class="box">',
+        'after_widget' => '</div>',
+        'before_title'=> '<h3>',
+        'after_title' => '</h3>'
+    ));
+
+    register_sidebar(array(
+        'name' => 'Box3',
+        'id'    => 'box3',
+        'before_widget' =>'<div class="box">',
+        'after_widget' => '</div>',
+        'before_title'=> '<h3>',
+        'after_title' => '</h3>'
+    ));
+
 add_action('widgets_init','wpb_init_widgets');
 
