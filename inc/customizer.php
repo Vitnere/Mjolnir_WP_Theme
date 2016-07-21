@@ -45,7 +45,7 @@ function wpb_customize_register($wp_customize){
     ));
 
     $wp_customize->add_setting('btn_url',array(
-        'default'  => _x('http://test.com','wpbootstrap'),
+        'default'  => _x('https://github.com/Vitnere/mjolnir_wp_theme','wpbootstrap'),
         'type'      => 'theme_mod'
     ));
 
@@ -56,7 +56,7 @@ function wpb_customize_register($wp_customize){
     ));
 
     $wp_customize->add_setting('btn_text',array(
-        'default'  => _x('Read more','wpbootstrap'),
+        'default'  => _x('See code','wpbootstrap'),
         'type'      => 'theme_mod'
     ));
 
